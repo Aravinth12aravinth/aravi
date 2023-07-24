@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three-Column Layout</title>
+    <style>
+        /* Add some basic styles for better visualization */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+        .column:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+        .column:nth-child(even) {
+            background-color: #e6e6e6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Three-Column Layout</h1>
+    </header>
+
+    <main>
+        <div class="column">
+            <h2>Column 1</h2>
+            <p>This is the content of column 1.</p>
+        </div>
+        <div class="column">
+            <h2>Column 2</h2>
+            <p>This is the content of column 2.</p>
+        </div>
+        <div class="column">
+            <h2>Column 3</h2>
+            <p>This is the content of column 3.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Three-Column Layout. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+Next, let's move on to the layout exercise and create a three-column layout with a header and footer using CSS. Here's the code:
